@@ -1,0 +1,491 @@
+/*======================HEADER==================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bah_menu_icon{
+    color: #C10037;
+}
+.
+.navbar-brand{
+    font-weight: bold;
+}
+.bg{
+    background-color: #395693;
+}
+.navbar {
+    padding: 0;
+    
+}
+@media(max-width: 767px){
+    .ul-bg{
+        background-color: #395693;
+    }
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+nav .nav-item a :hover{
+    color: white;
+}
+.image_header{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.section1_title{
+    font-size: 25px;
+    font-weight: bold!important;
+    color: #fff;
+}
+.section1_row{
+    background-color: black;
+    border-radius: 40px;
+    height: 70px;
+
+}
+.imba_title{
+    position: relative;
+    margin: 20px 0 0;
+    font-size: 4em;
+    font-weight: 900;
+    color: black;
+    z-index: 1;
+    overflow: hidden;
+}
+.imba_title:before{
+    content: '';
+    position: absolute;
+    left: 100;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent 0%, #fff 5%, #fff 100%);
+    animation: animate 5.5s linear forwards;
+    animation-delay: repeat;
+}
+@keyframes animate
+{
+    0%{
+        left: 110%;
+    }
+    100%{
+        left: -20%;
+    }
+}
+.imba_title span{
+    color: #ff022c;
+}
+.ilove_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #868E96;;
+}
+.curenet_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #868E96;;
+}
+.btn_kithub{
+    text-decoration: none;
+    background-color: #6600FF;
+    color: #fff;
+    height: 32px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.btn_kithube{
+    border: none;
+    background-color: #6600FF;
+    color: #fff;
+    border-radius: 3px;
+}
+.btn_kithube a{
+    text-decoration: none!important;
+    color: #fff;
+    font-weight: bold;
+}
+a{
+    text-decoration: none!important;
+}
+a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.github_col_icon{
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+.githu_icon{
+    color: #fff;
+    font-size: 13px;
+}
+.gmail_col_icon{
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #C0504F;
+    color: #fff;
+}
+.gmail_icon{
+    color: white;
+    font-size: 13px;
+}
+.facebook_col_icon{
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #365899;
+    color: #fff;
+}
+.facebook_icon{
+    color: #fff;
+    font-size: 13px;
+}
+.instagram_col_icon{
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #DD2A7B;
+    color: #fff;
+}
+.instagram_icon{
+    color: #fff;
+    font-size: 13px;
+}
+.linkedin_col_icon{
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #0A66C2;
+    color: #fff;
+}
+.linkedin_icon{
+    color: white;
+    font-size: 13px;
+}
+.experience_btn{
+    text-decoration: none;
+    background-color: #6600FF;
+    color: #fff;
+    font-size: 15px;
+    height: 35px;
+    border: none;
+    
+}
+.experience_btn:hover{
+    background-color: #6600FF;
+    color: #fff!important;
+}
+.facebook_icon:hover{
+    color: red!important;
+}
+.contact_btn{
+    text-decoration: none;
+    background-color: #6600FF;
+    color: #fff;
+    font-size: 15px;
+    height: 35px;
+    border: none;
+    
+}
+.contact_btn:hover{
+    background-color: #fff;
+    color: black!important;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact_btn a{
+    color: #fff;
+}
+.contact_btn_envelo{
+    font-size: 15px;
+}
+.contact_btn:hover{
+    color: black!important;
+    border: 1px solid black;
+}
+
+.section1_image{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+/*===============================WHAT I DO SECTION 2============================*/
+.bgcl{
+    background-color: #F5F9F7;
+}
+.imagesect{
+    border-radius: 20px;
+}
+.img_section2{
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.what_ido_tie{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #181e1b;
+}
+.what_ido_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #868E96;
+}
+.para_dev{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #868E96;
+}
+/*=========================WORK EXPERIENCE====================*/
+.mobile{
+    position: absolute;
+    right: 50%;
+}
+.laptop_icon{
+    position: absolute;
+    right: 47%;
+}
+.credit_icon{
+    position: absolute;
+    right: 47%;
+}
+.card_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #181e1b'
+}
+.card_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px!important;
+    color: #868E96;
+}
+.icon{
+    font-size: 25px;
+}
+.hr_bar{
+    width: 20%;
+    margin-left: 38%;
+    font-size: 50px;
+}
+.card_border{
+    border-radius: 20px;
+}
+.card{
+    height: 95%;
+    box-shadow: black;
+}
+
+/*==========================ACHIEVEMENT========================*/
+.icon_trophy{
+    color: #6600FF;
+}
+.achievement_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #181e1b;
+}
+.achiev_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #868E96;
+}
+.card_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #181e1b'
+}
+.card_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #868E96;
+}
+.certi_btn{
+    border-radius: 30px;
+    border: none;
+    font-size: 13px;
+    padding: 3px;
+    background-color: #6600FF;
+    color: #fff;
+}
+.certi_btn,m:hover{
+    background-color: #8C43CE;
+    transition: 0.3s;
+}
+.award_btn{
+    border-radius: 30px;
+    border: none;
+    font-size: 13px;
+    padding: 3px;
+    background-color: #6600FF;
+    color: #fff;
+}
+
+/*=======================CONTACT===================*/
+.headercontact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #181e1b;
+}
+.get_intouch{
+    background-color: #6600FF;;
+}
+.title_letintouch{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.barhr{
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.formgetintouch{
+    background-color: #fff;
+}
+.title_getintouch{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para_getintouch{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+.address{
+    color: #fff;
+}
+.address a{
+    color: #fff;
+}
+.form-control{
+border-color: none!important;;
+color: none!important;;
+box-shadow: none!important;
+}
+.btn_submit{
+    text-decoration: none;
+    background-color: #6600FF;
+    color: #fff;
+    font-size: 15px;
+    width: 25%;
+    height: 35px;
+    border: none;
+}
+.label_text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input_text{
+    width: 80%;
+    box-shadow: none!important;
+}
+.inputname{
+    box-shadow: none!important;
+    border-radius: 0px!important;
+}
+.form_btn{
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #6600FF;
+    color: #fff;
+}
+/*==========================FOOTER=============================*/
+.footer{
+    background-color: #000;
+    padding-bottom: 0px;
+}
+
+.reach_title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.disc_titl{
+    color: #868E96;
+    font-weight: bold;
+    font-size: 15px!important;
+}
+.made_with{
+    color: #fff;
+}
+.made_by{
+    color: #fff!important;
+}
+.location{
+    color: #868E96;
+    font-weight: bold;
+}
+.opportunity{
+    color: #fff!important;
+    font-weight: bold;
+}
+.sanpa_fot{
+    margin: 15px;
+}
+.finger_icon{
+    font-size: 30px;
+    color: #F5F9F7;
+}
+.iconfinger_all{
+    background-color: #6600FF;
+    width: 40px;
+    border-radius: 10px;
+}
+.contact_me{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer_tel{
+    color: #868E96;
+    font-weight: bold;
+    font-size: 15px;
+}
+.email_footer{
+    color: #868E96;
+    font-weight: bold;
+    font-size: 15px;
+}
+.icon_finger{
+    text-align: right;
+    justify-content: right;
+}
